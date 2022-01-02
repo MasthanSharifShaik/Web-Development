@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Interests Survey Form</title>
+  </head>
+  <body>
+    <h1><center>Employee Interests Survey Form<center></h1>
+    <form action="mailto:sharifshaik181818@gmail.com" method="post" enctype="text/plain">
+      <label> Enter your name: </label>
+      <input type="text"  name="emp-name" value=""><br><br>
+      <label> Enter your Department: </label>
+      <input type="text" name="emp-department" value=""><br><br>
+      <label> <span>Tell us something about yourself:</span> </label>
+      <textarea name="about" rows="5" cols="33"></textarea><br><br>
+      <label> Do you exercise at home? </label>
+      <input type="radio" name="exe" value=1>Yes
+      <input type="radio" name="exe" value=2>No
+      <p>How do you like to read about your favourite topics?</p>
+      <p>
+      <input type="checkbox" name="books" value="">Books
+      <input type="checkbox" name="books" value="">Online Resources/blogs
+      <input type="checkbox" name="books" value="">Mobile apps/Social Media
+      <input type="checkbox" name="books" value="">Magazines
+    </p>
+      <label>What genre of books do you read?</label>
+      <select name="books-pref"><option>
+        <option value=1 selected="true">Biograpy</option>
+        <option value=2>Science</option>
+        <option value=3>Fiction</option>
+        <option value=4>Non-Fiction</option>
+        <option value=5>Thriller</option>
+        <option value=6>Comic</option>
+        <option value=7>Horror</option>
+
+      </select>
+      <br><br>
+
+      <label>What genre of movies do you watch?</label>
+      <select name="movie-pref"><option>
+        <option value=1 selected="true">SciFi</option>
+        <option value=2>Comedy</option>
+        <option value=3>Adventure</option>
+        <option value=4>Romance</option>
+        <option value=5>Thriller</option>
+        <option value=6>Animation</option>
+        <option value=7>Horror</option>
+        <option value=8>Biopic</option>
+      </select><br><br>
+      <input type="submit" name="submit" value="Submit form">
+
+    </form>
+
+  </body>
+</html>
